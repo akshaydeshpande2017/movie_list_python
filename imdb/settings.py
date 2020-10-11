@@ -14,7 +14,7 @@ SECRET_KEY = 's_&=uvh!fjvj8w^3$ct_$h4lm5a3$)j#0tr@(1f$gy@#0@9#%9'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ["*"]
+ALLOWED_HOSTS = ["127.0.0.1", "akshay-movies.herokuapp.com/"]
 
 
 # Application definition
@@ -67,11 +67,11 @@ WSGI_APPLICATION = 'imdb.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql_psycopg2',
-        'NAME': 'movies',
-        'USER': 'akshaydeshpande',
-        'PASSWORD': 'admin123',
-        'HOST': 'localhost',
-        'PORT': '',
+        'NAME': 'dd5q6fr12b6557',
+        'USER': 'gazjvklrppzwnu',
+        'PASSWORD': 'af111bae2831712c7ca11f2904bee00b4ee07daa27c2219efe2938a71f345d7e',
+        'HOST': 'ec2-107-22-241-205.compute-1.amazonaws.com',
+        'PORT': '5432',
     }
 }
 

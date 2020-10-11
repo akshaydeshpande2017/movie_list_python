@@ -14,7 +14,7 @@ SECRET_KEY = 's_&=uvh!fjvj8w^3$ct_$h4lm5a3$)j#0tr@(1f$gy@#0@9#%9'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ["127.0.0.1", "akshay-movies.herokuapp.com/"]
+ALLOWED_HOSTS = ["*", "127.0.0.1", "akshay-movies.herokuapp.com/"]
 
 
 # Application definition
